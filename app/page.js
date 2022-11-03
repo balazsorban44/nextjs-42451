@@ -5,7 +5,7 @@ export default function Page(props) {
     <div>
       <Link href="/?page=1">Page 1</Link>
       <Link href="/?page=2">Page 2</Link>
-      <pre>{JSON.stringify(props, null, 2)}</pre>
+      <pre>{JSON.stringify(props.searchParams, null, 2)}</pre>
     </div>
   )
 }
